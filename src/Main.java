@@ -44,6 +44,18 @@ public class Main {
         float averageExpenses = sumWastes / expenseRecords.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageExpenses + " рублей");
 
+        //Задание 4.
+        System.out.println();
+        System.out.println("    Задание 4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
+        System.out.println();
+        System.out.println();
+        System.out.println("                The end");
+
+
     }
 
 }
