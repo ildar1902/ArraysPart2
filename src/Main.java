@@ -7,6 +7,7 @@ public class Main {
         }
         return expenseRecords;
     }
+
     public static void main(String[] args) {
 
         System.out.println("    Массивы часть 2.");
@@ -36,6 +37,12 @@ public class Main {
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей. Максимальная сумма трат за день составила " + max + " рублей");
+
+        //Задание 3.
+        System.out.println();
+        System.out.println("    Здание 3");
+        float averageExpenses = sumWastes / expenseRecords.length;
+        System.out.println("Средняя сумма трат за месяц составила " + averageExpenses + " рублей");
 
     }
 
